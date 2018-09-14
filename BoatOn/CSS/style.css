@@ -1,0 +1,101 @@
+body{
+	background-color: #ffffff;
+	margin-top: 0 auto;
+}
+
+input {
+	z-index: 1000000px;
+}
+
+header {
+	margin-top: 0 auto;
+	height: 50px;
+	width: 100%;
+}
+
+.menu-cima {
+	margin-top: 0 auto;
+	height: 80px;
+	width: 100%;
+	background-color: black;
+	color: white;
+	text-align: center;
+	border-radius: 0.3;
+	position: fixed;
+}
+
+.menu-cima h3{
+	margin-top:15px;
+}
+
+.menu-lateral {
+	width: 12%;
+	height: 100%;
+	background-color: black;
+	position: fixed;
+	margin-left: 0 auto;
+	margin-top: 30px;
+}
+
+.menu-lateral ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	background-color: black;
+	float: left;
+}
+
+.menu-lateral li {
+	margin-top: 0;
+	float: left;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+}
+
+.menu-lateral a {
+	font-size: 20px;
+	display: inline-block;
+	color: white;
+	width: 100%;
+	text-align: center;
+	padding: 16px; 0px;
+}
+
+.menu-lateral a:hover {
+	background-color: #575757;
+	width: 100%;
+}
+
+
+
+.img-boat {
+	margin-left: 20%;
+}
+
+.img-boat a {
+	padding: 5px;
+	width: 220px;
+	height: 220px;
+	margin-top: 5px;
+	float: left;
+}
+
+.img-boat img {
+	width: 220px;
+	height: 220px;
+}
+
+.img-boat h1{
+	color: black;
+	width: 220px;
+	margin-top: 80px;
+}
+
+.img-boat h4{
+	color: black;
+	width: 220px;
+	margin-top: 5px;
+}
